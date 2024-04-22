@@ -5,7 +5,7 @@ Estaturas = [1.88, 1.60, 1.60, 1.60, 1.60, 1.60, 1.65, 1.59, 1.75, 1.59, 1.72, 1
 
 # Convertir la lista en un ndarray de dos dimensiones
 
-arreglo_2d = np.array(Estaturas).reshape(6, 3)
+arreglo_2d = np.array(Estaturas).reshape(3, 6)
 print(arreglo_2d)
 media=np.mean(arreglo_2d)
 print("mediana=",media)
